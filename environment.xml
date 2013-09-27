@@ -1,0 +1,19 @@
+<environment>
+  <solutionId>testSolution</solutionId>
+  <authenticationMethod>Basic</authenticationMethod>
+  <instanceId></instanceId>
+  <userToken></userToken>
+  <consumerName>Guzzle</consumerName>
+  <applicationInfo>
+    <applicationKey>Basic bmV3Omd1ZXN0Cg==</applicationKey>
+    <supportedInfrastructureVersion>3.0</supportedInfrastructureVersion>
+    <supportedDataModel>SIF-US</supportedDataModel>
+    <supportedDataModelVersion>3.0</supportedDataModelVersion>
+    <transport>REST</transport>
+    <applicationProduct>
+      <vendorName>Guzzle</vendorName>
+      <productName>Guzzle</productName>
+      <productVersion>Guzzle</productVersion>
+    </applicationProduct>
+  </applicationInfo>
+</environment>
