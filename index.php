@@ -60,7 +60,9 @@ $request = $client->get('/api/zones', array());
 
 // Send the request and get the response
 $response = $request->send();
-print $response->getBody();
 $zones = $response->json();
 
-print_r($zones);
+foreach ($zones['zone'] as $zone){
+  $name = $zone['id'];
+  print "Zone Found! $name\n";
+}
